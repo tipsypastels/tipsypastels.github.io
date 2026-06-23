@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+  max-width: 100vw;
+}
+
+:root {
+  --light-blue: #ABDFEA;
+  --dark-blue: #7AD0DF;
+  --pink: #EF58A0;
+  --brown: #EDD3B6;
+
+  color: black;
+  font-family: "Bitcount Grid Double", system-ui;
+}
+
+body {
+  background-color: var(--dark-blue);
+  margin: 0;
+  padding: 0;
+}
+
+.backdrop {
+  background-color: var(--light-blue);
+  position: absolute;
+  top: 0;
+  left: 0;
+  user-select: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.backdrop * {
+  width: 100vw;
+}
+
+.backdrop-plane {
+  height: 15vh;
+}
+
+a {
+  color: inherit;
+}
+
+.app {
+  width: 600px;
+  margin: auto;
+  padding: 1rem;
+  position: relative;
+  z-index: 1;
+}
+
+.icons {
+  text-align: center;
+  user-select: none;
+}
+
+.icons img {
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .icons img {
+    width: 40%;
+  }
+}
+
+.hl {
+  color: var(--pink);
+  text-shadow: 2px 2px var(--brown);
+}
