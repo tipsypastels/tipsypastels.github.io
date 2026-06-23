@@ -14,7 +14,7 @@
 }
 
 body {
-  background-color: var(--dark-blue);
+  background-color: var(--light-blue);
   margin: 0;
   padding: 0;
 }
@@ -27,6 +27,7 @@ body {
   user-select: none;
   display: flex;
   flex-direction: column;
+  height: 100%;
 }
 
 .backdrop * {
@@ -35,6 +36,11 @@ body {
 
 .backdrop-plane {
   height: 15vh;
+}
+
+.backdrop-dark {
+  flex-grow: 1;
+  background-color: var(--dark-blue);
 }
 
 a {
