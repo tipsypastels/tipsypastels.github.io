@@ -54,12 +54,25 @@ a {
   user-select: none;
 }
 
-.icons img {
+.icon {
   cursor: pointer;
+  transition: 0.1s ease-in;
+}
+
+.icon.playing {
+  transform: scale(1.1) rotate(var(--icon-rotate));
+}
+
+.icon.playing--even {
+  --icon-rotate: 15deg;
+}
+
+.icon.playing--odd {
+  --icon-rotate: -15deg;
 }
 
 @media (max-width: 768px) {
-  .icons img {
+  .icon {
     width: 40%;
   }
 }
