@@ -5,48 +5,50 @@ import "./app.css";
 
 function App() {
   return (
-    <Ocean>
-      <div class="z-50 flex w-100 max-w-full flex-col gap-2 p-4 md:p-0">
-        <div class="flex justify-center">
-          <Pokemon name="poliwag" />
-          <Pokemon name="quaxly" />
-        </div>
+    <div class="app">
+      <Ocean>
+        <div class="z-50 flex w-100 max-w-full flex-col gap-2 p-4 md:p-0">
+          <div class="flex justify-center">
+            <Pokemon name="poliwag" />
+            <Pokemon name="quaxly" />
+          </div>
 
-        <div class="rounded-md border-8 border-white shadow-lg">
-          <div class="relative rounded-md border-8 border-black bg-white p-8">
-            <p class="mb-2">
-              Welcome to my pond, stranger. I am{" "}
-              <strong class="text-emerald-950">tipsypastels</strong>, feared and powerful swamp
-              witch.
-            </p>
+          <div class="rounded-md border-8 border-white shadow-lg">
+            <div class="relative rounded-md border-8 border-black bg-white p-8">
+              <p class="mb-2">
+                Welcome to my pond, stranger. I am{" "}
+                <strong class="text-emerald-950">tipsypastels</strong>, feared and powerful swamp
+                witch.
+              </p>
 
-            <p class="mb-2">
-              But wait. You probably meant to get to{" "}
-              <a
-                href="https://tipsypastels.github.io/stardex"
-                target="_blank"
-                class="font-bold text-emerald-950 underline"
-              >
-                Stardex
-              </a>
-              , a tool I created for Pokémon fangame developers to build balanced Pokédexes.
-            </p>
+              <p class="mb-2">
+                But wait. You probably meant to get to{" "}
+                <a
+                  href="https://tipsypastels.github.io/stardex"
+                  target="_blank"
+                  class="font-bold text-emerald-950 underline"
+                >
+                  Stardex
+                </a>
+                , a tool I created for Pokémon fangame developers to build balanced Pokédexes.
+              </p>
 
-            <p class="mb-2">Or you could stay a while. Watch the waves. I won't tell.</p>
+              <p class="mb-2">Or you could stay a while. Watch the waves. I won't tell.</p>
 
-            <div class="flex justify-end gap-2 text-sm font-bold text-emerald-950 underline md:text-base">
-              <a href="https://github.com/tipsypastels" target="_blank">
-                Github
-              </a>
+              <div class="flex justify-end gap-2 text-sm font-bold text-emerald-950 underline md:text-base">
+                <a href="https://github.com/tipsypastels" target="_blank">
+                  Github
+                </a>
 
-              <a href="https://bsky.app/profile/tipsypastels.bsky.social" target="_blank">
-                Bluesky
-              </a>
+                <a href="https://bsky.app/profile/tipsypastels.bsky.social" target="_blank">
+                  Bluesky
+                </a>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </Ocean>
+      </Ocean>
+    </div>
   );
 }
 

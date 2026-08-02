@@ -14,7 +14,7 @@
     @apply touch-manipulation;
   }
 
-  body {
+  .app {
     @apply flex h-screen w-screen items-center justify-center overflow-hidden bg-emerald-950 will-change-transform md:text-lg;
   }
 }
