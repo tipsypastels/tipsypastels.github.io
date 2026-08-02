@@ -14,7 +14,7 @@ function App() {
           </div>
 
           <div class="rounded-md border-8 border-stone-100 bg-stone-100 shadow-2xl shadow-black">
-            <div class="relative rounded-md border-8 border-emerald-800 p-8">
+            <div class="relative rounded-md border-8 border-emerald-950 p-8">
               <p class="mb-2">
                 Welcome to my bog, stranger. I am{" "}
                 <strong class="text-emerald-800">tipsypastels</strong>, feared and powerful swamp
