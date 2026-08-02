@@ -1,91 +1,19 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+
+    <title>tipsypastels</title>
+
     <link rel="icon" type="image/svg+xml" href="/bee.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#ABDFEA" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&display=swap"
-      rel="stylesheet"
-    />
-
-    <title>tipsypastels</title>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet" />
   </head>
   <body>
-    <div class="backdrop">
-      <div class="backdrop-plane"></div>
-      <img class="backdrop-clouds" src="/clouds.svg" />
-      <div class="backdrop-dark"></div>
-    </div>
-
-    <main class="app">
-      <div class="icons">
-        <img
-          class="icon"
-          data-audio="/poliwag.mp3"
-          src="/poliwag.png"
-          alt="Art of Poliwag"
-        />
-        <img
-          class="icon"
-          data-audio="/quaxly.mp3"
-          src="/quaxly.png"
-          alt="Art of Quaxly"
-        />
-      </div>
-
-      <div class="about">
-        <p>
-          I'm <span class="hl">tipsypastels</span>, aka
-          <span class="hl">Dakota</span> or <span class="hl">Mab</span>. I am
-          immortal and an terrible witch bound in the form of a human woman. One
-          time through no fault of my own I made something that people find
-          useful. It will not be happening again!
-        </p>
-        <p>I find ducks to be pleasant. Soon you will too.</p>
-      </div>
-
-      <hr />
-
-      <div class="projects">
-        <h2 class="hl">&gt; Thingies</h2>
-
-        <ul>
-          <li>
-            <a href="https://tipsypastels.github.io/stardex" target="_blank"
-              ><span>Stardex</span></a
-            >
-            <br />
-            <small> A Pokédex builder and analyzer for fangames.</small>
-          </li>
-        </ul>
-      </div>
-
-      <hr />
-
-      <div class="socials">
-        <h2 class="hl">&gt; Socials</h2>
-        <ul>
-          <li>
-            <a href="https://github.com/tipsypastels" target="_blank">Github</a>
-            :&rpar;
-          </li>
-          <li>
-            <a
-              href="https://bsky.app/profile/tipsypastels.bsky.social"
-              target="_blank"
-              >Bluesky</a
-            >
-            :&lpar;
-          </li>
-        </ul>
-      </div>
-    </main>
-
-    <script type="module" src="/src/main.ts"></script>
+    <div id="root"></div>
+    <script type="module" src="/src/app.tsx"></script>
   </body>
 </html>
