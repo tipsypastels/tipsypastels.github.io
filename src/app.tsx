@@ -32,18 +32,14 @@ function App() {
               , a tool I created for Pokémon fangame developers to build balanced Pokédexes.
             </p>
 
-            <p>Or you could stay a while. Watch the waves. I won't tell.</p>
+            <p class="mb-2">Or you could stay a while. Watch the waves. I won't tell.</p>
 
-            <div class="absolute -bottom-4 left-0 flex w-full justify-center gap-8 font-bold underline">
-              <a class="bg-white px-2" href="https://github.com/tipsypastels" target="_blank">
+            <div class="flex justify-end gap-2 text-sm font-bold text-emerald-950 underline md:text-base">
+              <a href="https://github.com/tipsypastels" target="_blank">
                 Github
               </a>
 
-              <a
-                class="bg-white px-2"
-                href="https://bsky.app/profile/tipsypastels.bsky.social"
-                target="_blank"
-              >
+              <a href="https://bsky.app/profile/tipsypastels.bsky.social" target="_blank">
                 Bluesky
               </a>
             </div>
