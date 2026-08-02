@@ -13,8 +13,8 @@ function App() {
             <Pokemon name="quaxly" />
           </div>
 
-          <div class="rounded-md border-8 border-stone-100 shadow-xl">
-            <div class="relative rounded-lg border-8 border-emerald-950 bg-stone-100 p-8">
+          <div class="rounded-md border-8 border-stone-100 bg-stone-100 shadow-xl">
+            <div class="relative rounded-md border-8 border-emerald-950 p-8">
               <p class="mb-2">
                 Welcome to my bog, stranger. I am{" "}
                 <strong class="text-emerald-800">tipsypastels</strong>, feared and powerful swamp

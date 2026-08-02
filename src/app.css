@@ -14,6 +14,11 @@
     @apply touch-manipulation;
   }
 
+  html,
+  body {
+    @apply overscroll-none;
+  }
+
   body {
     @apply bg-[#051A15];
   }
