@@ -21,6 +21,10 @@
   .app {
     @apply flex h-dvh w-screen items-center justify-center overflow-hidden bg-emerald-950 will-change-transform md:text-lg;
   }
+
+  a {
+    @apply font-bold text-emerald-800 underline;
+  }
 }
 
 @utility ocean-layer {

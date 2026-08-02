@@ -13,29 +13,23 @@ function App() {
             <Pokemon name="quaxly" />
           </div>
 
-          <div class="rounded-md border-8 border-white shadow-lg">
-            <div class="relative rounded-md border-8 border-black bg-white p-8">
+          <div class="rounded-md border-8 border-white shadow-xl">
+            <div class="relative rounded-lg border-8 border-emerald-950 bg-white p-8">
               <p class="mb-2">
                 Welcome to my pond, stranger. I am{" "}
-                <strong class="text-emerald-950">tipsypastels</strong>, feared and powerful swamp
+                <strong class="text-emerald-800">tipsypastels</strong>, feared and powerful swamp
                 witch.
               </p>
 
               <p class="mb-2">
                 But wait. You probably meant to get to{" "}
-                <a
-                  href="https://tipsypastels.github.io/stardex"
-                  target="_blank"
-                  class="font-bold text-emerald-950 underline"
-                >
-                  Stardex
-                </a>
-                , a tool I created for Pokémon fangame developers to build balanced Pokédexes.
+                <a href="https://tipsypastels.github.io/stardex">Stardex</a>, a tool I created for
+                Pokémon fangame developers to build balanced Pokédexes.
               </p>
 
               <p class="mb-2">Or you could stay a while. Watch the waves. I won't tell.</p>
 
-              <div class="flex justify-end gap-2 text-sm font-bold text-emerald-950 underline md:text-base">
+              <div class="flex justify-end gap-2 text-sm md:text-base">
                 <a href="https://github.com/tipsypastels" target="_blank">
                   Github
                 </a>
