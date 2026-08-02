@@ -16,7 +16,7 @@ function App() {
           <div class="rounded-md border-8 border-white shadow-lg">
             <div class="relative rounded-md border-8 border-black bg-white p-8">
               <p class="mb-2">
-                Welcome to my pond, stranger. I am{" "}
+                Welcome to my bog, stranger. I am{" "}
                 <strong class="text-emerald-950">tipsypastels</strong>, feared and powerful swamp
                 witch.
               </p>
