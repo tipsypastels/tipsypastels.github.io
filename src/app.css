@@ -38,7 +38,7 @@
 }
 
 @utility ocean-swells {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Cg stroke='%23025A46' stroke-width='2.2' fill='none' stroke-linecap='round'%3E%3Cpath transform='translate(18,20) rotate(8)' d='M-13,5 Q0,-11 13,5'/%3E%3Cpath transform='translate(57,16) rotate(-18) scale(0.85)' d='M-13,5 Q0,-11 13,5'/%3E%3Cpath transform='translate(39,57) rotate(14) scale(1.1)' d='M-13,5 Q0,-11 13,5'/%3E%3Cpath transform='translate(66,64) rotate(-6) scale(0.75)' d='M-13,5 Q0,-11 13,5'/%3E%3C/g%3E%3C/svg%3E");
+  background-image: url("/ocean/swells.svg");
   background-size: 80px 80px;
   opacity: 0.32;
   animation: ocean-swells-drift 40s linear infinite;
@@ -54,7 +54,7 @@
 }
 
 @utility ocean-big-ripples {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='95' height='95' viewBox='0 0 95 95'%3E%3Cg stroke='%230C8A6C' stroke-width='2.6' fill='none' stroke-linecap='round'%3E%3Cpath transform='translate(20,22) rotate(5)' d='M-16,6 Q0,-14 16,6'/%3E%3Cpath transform='translate(70,17) rotate(-20) scale(0.9)' d='M-16,6 Q0,-14 16,6'/%3E%3Cpath transform='translate(46,60) rotate(16) scale(1.15)' d='M-16,6 Q0,-14 16,6'/%3E%3Cpath transform='translate(80,76) rotate(-10) scale(0.8)' d='M-16,6 Q0,-14 16,6'/%3E%3C/g%3E%3C/svg%3E");
+  background-image: url("/ocean/big_ripples.svg");
   background-size: 95px 95px;
   opacity: 0.42;
   animation: ocean-big-ripples-drift 26s linear infinite;
@@ -70,7 +70,7 @@
 }
 
 @utility ocean-ripples {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40'%3E%3Cg stroke='%230B8567' stroke-width='1.6' fill='none' stroke-linecap='round'%3E%3Cpath transform='translate(8,10) rotate(10)' d='M-7,3 Q0,-6 7,3'/%3E%3Cpath transform='translate(29,6) rotate(-15) scale(0.8)' d='M-7,3 Q0,-6 7,3'/%3E%3Cpath transform='translate(15,27) rotate(20) scale(1.15)' d='M-7,3 Q0,-6 7,3'/%3E%3C/g%3E%3C/svg%3E");
+  background-image: url("/ocean/ripples.svg");
   background-size: 40px 40px;
   opacity: 0.28;
   animation: drift-ripples 13s linear infinite;
@@ -86,7 +86,7 @@
 }
 
 @utility ocean-cross-ripples {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='54' height='54' viewBox='0 0 54 54'%3E%3Cg stroke='%2304705A' stroke-width='1.8' fill='none' stroke-linecap='round'%3E%3Cpath transform='translate(10,14) rotate(-6)' d='M-9,4 Q0,-8 9,4'/%3E%3Cpath transform='translate(40,10) rotate(22) scale(0.85)' d='M-9,4 Q0,-8 9,4'/%3E%3Cpath transform='translate(26,38) rotate(-14) scale(1.1)' d='M-9,4 Q0,-8 9,4'/%3E%3Cpath transform='translate(47,44) rotate(10) scale(0.75)' d='M-9,4 Q0,-8 9,4'/%3E%3C/g%3E%3C/svg%3E");
+  background-image: url("/ocean/cross_ripples.svg");
   background-size: 54px 54px;
   opacity: 0.36;
   animation: ocean-cross-ripples-drift 18s linear infinite;
@@ -102,7 +102,7 @@
 }
 
 @utility ocean-rings {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg stroke='%23036650' fill='none' stroke-width='1.4'%3E%3Ccircle cx='28' cy='32' r='9'/%3E%3Ccircle cx='28' cy='32' r='16'/%3E%3Ccircle cx='75' cy='68' r='6'/%3E%3Ccircle cx='75' cy='68' r='12'/%3E%3C/g%3E%3C/svg%3E");
+  background-image: url("/ocean/rings.svg");
   background-size: 100px 100px;
   opacity: 0.2;
   animation: ocean-rings-drift 50s linear infinite;
@@ -118,7 +118,7 @@
 }
 
 @utility ocean-flecks {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 18 18'%3E%3Cg stroke='%230B8567' stroke-width='1' fill='none' stroke-linecap='round'%3E%3Cpath transform='translate(5,5) rotate(15)' d='M-3,1.5 Q0,-3 3,1.5'/%3E%3Cpath transform='translate(13,12) rotate(-20) scale(0.8)' d='M-3,1.5 Q0,-3 3,1.5'/%3E%3C/g%3E%3C/svg%3E");
+  background-image: url("/ocean/flecks.svg");
   background-size: 18px 18px;
   opacity: 0.4;
   animation: ocean-flecks-drift 7s linear infinite;
