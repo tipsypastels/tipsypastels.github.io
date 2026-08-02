@@ -7,13 +7,13 @@ function App() {
   return (
     <div class="app">
       <Ocean>
-        <div class="z-50 flex w-100 max-w-full flex-col gap-2 p-4 md:p-0">
+        <div class="z-50 flex w-100 max-w-full flex-col p-4 md:p-0">
           <div class="flex justify-center">
-            <Pokemon name="poliwag" />
-            <Pokemon name="quaxly" />
+            <Pokemon name="poliwag" title="Poliwag" />
+            <Pokemon name="quaxly" title="Quaxly" />
           </div>
 
-          <div class="rounded-md border-8 border-stone-100 bg-stone-100 shadow-xl">
+          <div class="rounded-md border-8 border-stone-100 bg-stone-100 shadow-2xl shadow-black">
             <div class="relative rounded-md border-8 border-emerald-950 p-8">
               <p class="mb-2">
                 Welcome to my bog, stranger. I am{" "}
@@ -61,7 +61,7 @@ function Ocean(props: { children: JSXElement }) {
   );
 }
 
-function Pokemon(props: { name: string }) {
+function Pokemon(props: { name: string; title: string }) {
   const [playing, setPlaying] = createSignal<"even" | "odd">();
 
   let img!: HTMLImageElement;
@@ -94,11 +94,11 @@ function Pokemon(props: { name: string }) {
       ref={img}
       class="max-w-[50%] cursor-pointer transition-all hover:scale-105"
       classList={{
-        "rotate-6": playing() === "even",
-        "-rotate-6": playing() === "odd",
+        "scale-110! rotate-6": playing() === "even",
+        "scale-110! -rotate-6": playing() === "odd",
       }}
-      src={`/${props.name.toLowerCase()}.png`}
-      alt={`Art of ${props.name}`}
+      src={`/${props.name}.png`}
+      alt={`Art of ${props.title}.`}
     />
   );
 }
