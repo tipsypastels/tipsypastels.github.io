@@ -18,7 +18,7 @@ function App() {
               <p class="mb-2">
                 Welcome to my bog, stranger. I am{" "}
                 <strong class="text-emerald-800">tipsypastels</strong>, feared and powerful swamp
-                witch.
+                witch. Also called <strong class="text-emerald-800">Mab</strong> by some legends.
               </p>
 
               <p class="mb-2">
